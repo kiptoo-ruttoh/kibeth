@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./main.css">
+  <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+              colors: {
+                primary: "#050816",
+                secondary: "#aaa6c3",
+                tertiary: "#151030",
+                "black-100": "#100d25",
+                "black-200": "#090325",
+                "white-100": "#f3f3f3",
+              },
+              boxShadow: {
+                card: "0px 35px 120px -15px #211e35",
+              },
+              screens: {
+                xs: "450px",
+              },
+              backgroundImage: {
+                "hero-pattern": "url('./herobg.png')",
+              },
+            },
+          },
+    }
+  </script>
+</head>
+<body>
+    <div class='realtive z-0 bg-primary'>
+        <div class='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        
+            <!-- navbar -->
+            <nav class="sm:px-16 px-6 w-full flex items-center pb-3 pt-2 fixed top-0 z-20 bg-primary">
+                <div class='w-full flex justify-between items-center max-w-7xl mx-auto'>
+                    <p class='text-white text-[18px] text-bold cursor-pointer flex'>Mesh 
+                        <span class=''> | Full Stack Developer</span>
+                    </p>
+                    <ul class='list-none hidden sm:flex flex-row gap-10'>
+                        <li class ='text-secondary font-poppins font-medium cursor-pointer'>
+                            <a href="#About">About</a>
+                        </li>
+                        
+                        <li class ='text-secondary font-poppins font-medium cursor-pointer'>
+                            <a href="#Experience">Experience</a>
+                        </li>
+                        <li class ='text-secondary font-poppins font-medium cursor-pointer'>
+                          <a href="#Project">Projects</a>
+                      </li>
+                        <li class ='text-secondary font-poppins font-medium cursor-pointer'>
+                            <a href="#Contact">Contact</a>
+                        </li>
+                
+                    </ul>
+                </div>
+            </nav>
+
+
+            <!-- about -->
+            <section id="About" class="relative w-full h-screen px-2 flex justify-center pb-10">
+                <div class="sm:px-16 absolute inset-0 top-[120px] max-w-7xl 
+                 flex flex-row items-start gap-5">
+                  <div>
+                    <h1 class="font-black text-white lg:text-[40px] sm:text-35px] xs:text-[30px] text-[25px] lg:leading-[78px] mt-2, text-white`">Hi, I'm <span class="text-[#915eff]">Meshack</span></h1>
+                    <p class="text-[#dfd9ff] font-medium lg:text-[20px] sm:text-[22px] xs:text-[18px] text-[15px] lg:leading-[40px] text-zinc-400  mt-2  mx-auto" >I'm a passionate and results-driven software 
+                developer with a strong foundation in creating robust, efficient, and user-friendly applications. With a keen eye for detail and 
+                a dedication to problem-solving, I thrive on turning complex ideas into elegant, functional solutions.
+                I believe in writing clean, maintainable code and always strive for best practices. I enjoy collaborating with cross-functional teams and take pride in my ability to communicate complex technical concepts to non-technical stakeholders</p>
+                  </div>
+                </div>
+            
+        </div>
+
+            <div class="">
+            <div>
+                <p class="text-white font-black px-12 md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Introduction</p>
+                <h2 class="sm:text-[18px] px-12 text-[14px] text-secondary uppercase tracking-wider">My Skills</h2>
+            </div>
+            <h3 class="px-12">Programming Languages</h3>
+           <li class ='mt-2 mb-4 px-12 text-[18px] text-secondary max-w-3xl leading-[30px]'>
+             Proficient in languages such as Python, JavaScript, and Java
+           </li>
+
+           <h3 class="px-12">Web Development</h3>
+           <li class ='mt-2 mb-4 px-12 text-[18px] text-secondary max-w-3xl leading-[30px]'>
+            Experienced in building responsive and interactive web applications using HTML, CSS, and modern JavaScript frameworks like React.            
+           </li>
+           <h3 class="px-12">Database Management</h3>
+           <li class ='mt-2 mb-4 px-12 text-[18px] text-secondary max-w-3xl leading-[30px]'>
+            
+             Skilled in working with relational databases, including MySQL and PostgreSQL.
+
+           </li>
+           <h3 class="px-12"> Problem Solving</h3>
+           <li class ='mt-2 mb-4 px-12 text-[18px] text-secondary max-w-3xl leading-[30px]'>
+            
+            I love tackling challenging problems and finding creative solutions.
+
+           </li>
+           <h3 class="px-12">Continuous Learning</h3>
+           <li class ='mt-2 mb-4 px-12 text-[18px] text-secondary max-w-3xl leading-[30px]'>
+            
+            I'm committed to staying up-to-date with the latest technologies and best practices in software development.
+
+           </li>
+           <h3 class="px-12">Version Control</h3>
+           <li class ='mt-2  px-12 text-[18px] text-secondary max-w-3xl leading-[30px]'>
+            
+            Proficient with Git and GitHub for efficient code collaboration.
+           </li>
+
+        </div>
+      </section>
+
+        <!-- experience -->
+        <section id="Experience">
+        <div class="pt-20 px-12">
+            <p class="text-white font-black md:text-[30px] sm:text-[50px] xs:text-[40px] text-[20px]">What I have done so far</p>
+            <h2 class="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Code experinces</h2>
+            <div class="mt-10 flex flex-col">
+                <h3 class="text-white text-[24px] font-semibold">
+                    Bank
+                  </h3>
+                  <p class="text-secondary text-[16px] font-semibold">
+                    Worked in a bank over the holidays doing normal computer maitainace
+                  </p>
+            </div>
+            <div class="mt-10 flex flex-col">
+                <h3 class="text-white text-[24px] font-semibold">
+                    Restaurant
+                  </h3>
+                  <p class="text-secondary text-[16px] font-semibold">
+                    Developing and maintaining web applications using React.js and other related technologies.
+                    Worked in a restaurant over the holidays and built them a website using React js framework
+                  </p>
+            </div>
+            <div class="mt-10 flex flex-col">
+                <h3 class="text-white text-[24px] font-semibold">
+                    Hospital
+                  </h3>
+                  <p class="text-secondary text-[16px] font-semibold">
+                    Implementing  patient maintainance system and ensuring cross-browser compatibility.
+                    Worked in a hospital over the holidays doing normal computer maitainace
+                  </p>
+            </div>
+            
+    </section>
+
+
+        <!-- code -->
+        <section id="Project" class="pt-20 mx-12">
+        
+        <div>
+        <p class="text-white font-black md:text-[30px] sm:text-[20px] xs:text-[20px] text-[30px]">Projects that I have created</p>
+            <h2 class="text-white text-[25px] font-semibold py-4">Projects</h2>
+
+        </div>
+
+        <div class="w-full flex flex-col aling-items-center">
+          <h3 class="text-white text-[20px] font-semibold">
+            E-commerce Website
+          </h3>
+            <li class="mt-3 text-secondary text-[17px] w-auto leading-[30px]">
+              Built a mock up of Amazon where user can browse items, add items to cart, and also check out items.
+            </li>
+
+            <h3 class="text-white text-[20px] font-semibold">
+              Personal Blog
+            </h3>
+            <li class="mt-3 text-secondary text-[17px] w-auto leading-[30px]">
+              A personal blog is among the first programs I developed. A user can create content then upload to the blog.
+            </li>
+
+            <h3 class="text-white text-[20px] font-semibold">
+              Game Development
+            </h3>
+            <li class="mt-3 text-secondary text-[17px] w-auto leading-[30px]">
+              I have developed both simple 2D games to complex 3D games with high graphics.   
+            </li>
+
+            <h3 class="text-white text-[20px] font-semibold">
+              IoT Project
+            </h3>
+            <li class="mt-3 text-secondary text-[17px] w-auto leading-[30px]">
+              I have experimented with some IoT technologies and built simple things like lights bulbs that respond to voice commands
+            </li>
+
+            <h3 class="text-white text-[20px] font-semibold">
+              Automation Script
+            </h3>
+            <li class="mt-3 text-secondary text-[17px] w-auto leading-[30px]">
+              I have deloped automation scripts like web crawlers that harvest information automatically.
+            </li>
+        </div>
+    </section>
+
+
+              <!-- contact -->
+              <section id="Contact" class="py-20 w-auto" >
+          <div class='xl:mt-12 xl:flex-row flex-col-reverse w-[60%] flex gap-10 overflow-hidden'>
+             <div class='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
+              <p class="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Get in touch</p>
+              <h3 class="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Contact.</h3>
+          <form 
+        ref={formRef}
+        onSubmit={handleSubmit}
+        class='mt-12 flex flex-col gap-8'>
+          <label class='flex flex-col'>
+            <span class='text-white font-medium mb-4'>Your Name</span>
+            <input 
+              autoComplete='false'
+              type='text' 
+              name='name' 
+              placeholder="What's your name?" 
+              class='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'>                
+              
+          </label>
+          <label class='flex flex-col'>
+            <span class='text-white font-medium mb-4'>Your Email</span>
+            <input 
+              autoComplete='false'
+              type='email' 
+              name='email' 
+              
+              placeholder="What's your email?" 
+              class='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'>                
+              
+          </label>
+          <label class='flex flex-col'>
+            <span class='text-white font-medium mb-4'>Your Message</span>
+            <textarea 
+              rows='7'
+              autoComplete='false'
+              name='message' 
+              
+              placeholder="What do you want to say?" 
+              class='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium max-h-[300px]'>                
+              </textarea>
+          </label>
+          <button type='submit' class='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
+            Send
+          </button>
+        </form>
+             </div>
+
+
+        </div>
+    </section>
+        
+    </div>
+    </div>
+  <script src="./main.js"></script>
+</body>
+</html>
